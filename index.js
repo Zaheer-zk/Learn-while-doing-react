@@ -1,5 +1,5 @@
-// // <h1>Hello World, from React
-// const header = React.createElement('h1', {}, 'Hello World, from React');
+// <h1>Hello World, from React
+const header = React.createElement('h1', {}, 'Hello World, from React');
 
 //<div><h1>Heading 1</h1><h2>Heading 2</h2></div>
 const heading1 = React.createElement(
