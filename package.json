@@ -1,0 +1,22 @@
+{
+  "name": "learn_while_doing_react",
+  "version": "1.0.0",
+  "description": "Learning React Code",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zaheer-zk/Learn_while_doing_react.git"
+  },
+  "author": "Zaheer Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zaheer-zk/Learn_while_doing_react/issues"
+  },
+  "homepage": "https://github.com/Zaheer-zk/Learn_while_doing_react#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}

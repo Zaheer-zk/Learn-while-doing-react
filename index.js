@@ -1,6 +1,10 @@
 // <h1>Hello World, from React
 const header = React.createElement('h1', {}, 'Hello World, from React');
 
+/**
+ * React.createElement('type', 'props', [child's]) {}
+ */
+
 //<div><h1>Heading 1</h1><h2>Heading 2</h2></div>
 const heading1 = React.createElement(
   'h1',
@@ -30,3 +34,5 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 // root.render(header);
 root.render(container);
+
+//Bundlers : Vite, webpack, parcel

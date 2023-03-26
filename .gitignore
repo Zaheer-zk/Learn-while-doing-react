@@ -1,0 +1,19 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore build output
+build/
+
+# Ignore development server files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore environment variables file
+.env
+
+# Ignore any other temporary or generated files
+.DS_Store
+*.swp
+Thumbs.db
