@@ -1,0 +1,8 @@
+// without options
+{
+  // "plugins": ["transform-remove-console"]
+}
+// with options
+// {
+//   "plugins": [["transform-remove-console", { "exclude": ["error", "warn"] }]]
+// }

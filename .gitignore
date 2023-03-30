@@ -3,6 +3,8 @@ node_modules/
 
 # Ignore build output
 build/
+dist/
+.parcel-cache/
 
 # Ignore development server files
 *.log

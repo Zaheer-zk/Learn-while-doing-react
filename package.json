@@ -2,9 +2,10 @@
   "name": "learn_while_doing_react",
   "version": "1.0.0",
   "description": "Learning React Code",
-  "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,16 @@
   },
   "homepage": "https://github.com/Zaheer-zk/Learn_while_doing_react#readme",
   "devDependencies": {
-    "parcel": "^2.8.3"
-  }
+    "@babel/core": "^7.21.3",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
 }
